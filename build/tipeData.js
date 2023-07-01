@@ -54,11 +54,11 @@ let thisMonth = Months.Jul;
 console.log(`Ini bulan ${thisMonth}`);
 var Days;
 (function (Days) {
-    Days[Days["Mon"] = 0] = "Mon";
-    Days[Days["Tue"] = 1] = "Tue";
-    Days[Days["Wed"] = 2] = "Wed";
-    Days[Days["Thu"] = 3] = "Thu";
-    Days[Days["Fri"] = 4] = "Fri";
+    Days[Days["Mon"] = 1] = "Mon";
+    Days[Days["Tue"] = 2] = "Tue";
+    Days[Days["Wed"] = 3] = "Wed";
+    Days[Days["Thu"] = 4] = "Thu";
+    Days[Days["Fri"] = 5] = "Fri";
 })(Days || (Days = {}));
-let theDay = Days.Mon;
+let theDay = Days.Wed;
 console.log(theDay);

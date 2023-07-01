@@ -63,12 +63,12 @@ let thisMonth: Months = Months.Jul;
 console.log(`Ini bulan ${thisMonth}`);
 
 enum Days {
-   Mon,
+   Mon = 1,
    Tue,
    Wed,
    Thu,
    Fri,
 }
 
-let theDay: Days = Days.Mon;
+let theDay: Days = Days.Wed;
 console.log(theDay);
