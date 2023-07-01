@@ -1,0 +1,15 @@
+{
+   "name": "first",
+   "version": "1.0.0",
+   "main": "index.js",
+   "license": "MIT",
+   "scripts": {
+      "tsc": "rm -rf build/ && tsc",
+      "ts": "rm -rf build/ && tsc -w",
+      "dev": "nodemon ./build/tipeData.js"
+   },
+   "devDependencies": {
+      "nodemon": "^2.0.22",
+      "typescript": "^5.1.6"
+   }
+}
