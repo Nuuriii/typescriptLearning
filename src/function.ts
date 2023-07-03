@@ -22,3 +22,13 @@ type Add = (num1: number, num2: number) => number;
 const ADD: Add = (param1: number, param2: number) => param1 + param2;
 const RESULT2: number = ADD(30, 20);
 console.log(RESULT2);
+
+// Default Parameter
+type yourName = (param1: string, param2: string) => string;
+
+const userName2: yourName = (firstName = "Anonymus", lastName = "Anonymus") => {
+   return `${firstName} ${lastName}`;
+};
+
+const myName2 = userName2("Reza", "");
+console.log(myName2);

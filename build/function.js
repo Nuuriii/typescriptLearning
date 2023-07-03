@@ -17,3 +17,8 @@ console.log(RESULT);
 const ADD = (param1, param2) => param1 + param2;
 const RESULT2 = ADD(30, 20);
 console.log(RESULT2);
+const userName2 = (firstName = "Anonymus", lastName = "Anonymus") => {
+    return `${firstName} ${lastName}`;
+};
+const myName2 = userName2("Reza", "");
+console.log(myName2);
