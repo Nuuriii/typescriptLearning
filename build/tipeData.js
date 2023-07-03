@@ -30,6 +30,7 @@ let myArr3;
 myArr3 = ["halo", 2, false];
 console.log(myArr3);
 //5. Tuple
+// Array yang dapat kita atur jumlah dan tipe data pada setiap elemennya
 let tupleVar;
 tupleVar = ["Ini String", 3];
 console.log(tupleVar);
