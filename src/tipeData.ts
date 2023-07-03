@@ -50,6 +50,7 @@ tupleVar3 = ["Reza", 20, true];
 console.log(tupleVar3);
 
 //6. Enum
+// untuk mendefinisikan kumpulan nilai konstan yang memiliki nilai khusus
 enum Months {
    Jan = "January",
    Feb = "February",
