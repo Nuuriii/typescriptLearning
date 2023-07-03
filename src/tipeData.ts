@@ -74,3 +74,6 @@ enum Days {
 
 let theDay: Days = Days.Wed;
 console.log(theDay);
+
+//7. Union
+let phoneNumber: string | number;

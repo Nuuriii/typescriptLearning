@@ -64,3 +64,5 @@ var Days;
 })(Days || (Days = {}));
 let theDay = Days.Wed;
 console.log(theDay);
+//7. Union
+let phoneNumber;
