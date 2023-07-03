@@ -66,3 +66,6 @@ let theDay = Days.Wed;
 console.log(theDay);
 //7. Union
 let phoneNumber;
+phoneNumber = +6289797787;
+phoneNumber = "0962532525667";
+console.log(phoneNumber);
