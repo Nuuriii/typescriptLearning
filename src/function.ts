@@ -1,21 +1,24 @@
-// function
-function greet(yourName: string) {
-   return `Hello ${yourName}`;
+// Standard Function
+function greeting(message: string) {
+   return `Hello ${message}`;
 }
-console.log(greet("Bob"));
 
-const userName = (user: string) => {
-   return `Hello ${user}`;
-};
-console.log(userName("Reza"));
+const USER: string[] = ["Reza", "Octa", "Rara", "Geza"];
+const GREETING = greeting(USER[3]);
+console.log(GREETING);
 
-const greeting = (): void => {
-   console.log("Hello, Nice to meet you.");
-};
-greeting();
-
+// Argument type
 // i try to sum number with function
 let sum = (num1: number, num2: number) => {
    return num1 + num2;
 };
-console.log(sum(10, 10));
+const RESULT = sum(20, 20);
+console.log(RESULT);
+
+// function as type
+// kita buat tipe data alias untuk mengatur argument function dan hasil pengembalian functionnya
+type Add = (num1: number, num2: number) => number;
+// Setelah membuat tipe data alias maka selanjutnya tinggal membuat function
+const ADD: Add = (param1: number, param2: number) => param1 + param2;
+const RESULT2: number = ADD(30, 20);
+console.log(RESULT2);
